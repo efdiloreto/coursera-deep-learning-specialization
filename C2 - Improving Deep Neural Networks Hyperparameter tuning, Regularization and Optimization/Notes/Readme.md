@@ -130,7 +130,7 @@ Here are the course summary as its given on the course [link](https://www.course
 - Adding regularization to NN will help it reduce variance (overfitting)
 - L1 matrix norm:
   - `||W|| = Sum(|w[i,j]|)  # sum of absolute values of all w`
-- L2 matrix norm because of arcane technical math reasons is called Frobenius norm:
+- L2 (**Most common type of Regularization**) matrix norm because of arcane technical math reasons is called Frobenius norm:
   - `||W||^2 = Sum(|w[i,j]|^2)	# sum of all w squared`
   - Also can be calculated as `||W||^2 = W.T * W if W is a vector`
 - Regularization for logistic regression:
